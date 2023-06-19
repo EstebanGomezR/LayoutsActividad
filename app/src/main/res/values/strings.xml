@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyAppLayouts</string>
+    <string name="strConstraint">Esto es un Texto desde ConstraintLayout</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="checkbox">Esto es un checkbox</string>
+    <string name="strLinear">Esto es un texto desde LinearLayout</string>
+    <string name="btn_prev">Anterior</string>
+    <string name="strFrame">Esto es un texto desde FrameLayout</string>
+    <string name="strTable">Esto es un texto desde TableLayout</string>
+    <string name="strRelative">Esto es un texto desde RelativeLayout</string>
+</resources>
