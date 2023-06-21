@@ -33,6 +33,7 @@ public class TableLayout extends AppCompatActivity {
     private void openActivityFrame() {
         Intent intent = new Intent(this, FrameLAyout.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
     private void openActivityRelative() {
         Intent intent = new Intent(this, RelativeLayout.class);

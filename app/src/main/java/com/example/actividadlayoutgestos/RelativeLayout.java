@@ -27,6 +27,7 @@ public class RelativeLayout extends AppCompatActivity {
     private void openActivityTable() {
         Intent intent = new Intent(this, TableLayout.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
     public boolean onTouchEvent(MotionEvent event){
         this.gDetector.onTouchEvent(event);

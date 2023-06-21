@@ -33,6 +33,7 @@ public class LinearLayout extends AppCompatActivity {
     private void openActivityConstrain() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
     private void openActivityFrame() {
         Intent intent = new Intent(this, FrameLAyout.class);

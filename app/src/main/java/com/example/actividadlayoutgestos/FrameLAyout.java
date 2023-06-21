@@ -42,6 +42,7 @@ import android.widget.Button;
         private void openActivityLinear() {
             Intent intent = new Intent(this, LinearLayout.class);
             startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         }
         private class EscuchaGestos extends GestureDetector.SimpleOnGestureListener {
             @Override
